@@ -23,6 +23,11 @@ a:link {
   text-decoration: none;
 }
 
+p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+}
+
 button {
   background-color: transparent;
   border-width: 0;
@@ -100,4 +105,26 @@ a:hover, a:focus {
 .imgHiero {
   width: 100%;
   height: 100%;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.hieroP {
+  line-height: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.hieroButton {
+  background-color: #207200;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
 }/*# sourceMappingURL=style.css.map */
