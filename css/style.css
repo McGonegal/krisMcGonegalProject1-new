@@ -13,9 +13,25 @@ ul {
 }
 
 .wrapper {
+  height: 100%;
   max-width: 1100px;
   width: 90%;
   margin: 0 auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
 }
 
 .navigation {
@@ -51,4 +67,37 @@ nav {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+a:link {
+  color: #1a2428;
+}
+
+a:hover, a:focus {
+  color: #207200;
+}
+
+.hiero {
+  height: 100vh;
+  background-image: url(../assets/header/background.png);
+  background-size: cover;
+}
+
+.hieroFlex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hieroText {
+  width: 50%;
+}
+
+.hieroImage {
+  width: 50%;
+}
+
+.imgHiero {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
