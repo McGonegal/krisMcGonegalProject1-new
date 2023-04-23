@@ -127,4 +127,43 @@ h1 {
   text-transform: uppercase;
   padding: 0.5rem 1rem;
   border-radius: 15px;
+}
+
+@media (max-width: 800px) {
+  .hieroFlex {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hieroText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .hieroP {
+    text-align: center;
+  }
+  .hieroButton {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .imgHiero {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .navList {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 480px) {
+  .navList {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=style.css.map */
