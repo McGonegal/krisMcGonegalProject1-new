@@ -63,3 +63,57 @@
     padding-left: 1rem;
     padding-top: 3.5rem;
 }
+
+@media (max-width: 900px) {
+    .aboutFlex {
+        flex-direction: column;
+        padding-top: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutText button {
+        margin-bottom: 1rem;
+    }
+
+    .aboutService {
+        height: 20%;
+        margin-left: 0;
+    }
+
+    .aboutService p {
+        padding-top: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 750px){
+    .aboutService {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutFlex {
+        padding-top: 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .aboutText h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .about {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 370px) {
+    .about {
+        height: 120vh;
+    }
+}
