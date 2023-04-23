@@ -77,6 +77,8 @@
 
 .productButton {
     background-color: $green;
+    font-family: 'Lora', serif;
+    font-size: .9rem;
     color: $white;
     padding-top: .25rem;
     padding-bottom: .25rem;
@@ -86,4 +88,23 @@
     position: relative;
     top: 20px;
     left: 20px;
+}
+
+.loadButtonFlex {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.loadButton {
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    background-color: $green;
+    color: $white;
+    font-weight: 900;
+    padding-top:.5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right:.75rem;
+    border-radius: 20px;
 }

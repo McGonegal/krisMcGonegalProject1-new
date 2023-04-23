@@ -342,6 +342,8 @@ h1 {
 
 .productButton {
   background-color: #207200;
+  font-family: "Lora", serif;
+  font-size: 0.9rem;
   color: #fff;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -351,4 +353,23 @@ h1 {
   position: relative;
   top: 20px;
   left: 20px;
+}
+
+.loadButtonFlex {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.loadButton {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  background-color: #207200;
+  color: #fff;
+  font-weight: 900;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
