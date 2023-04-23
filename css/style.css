@@ -271,7 +271,7 @@ h1 {
   }
 }
 .product {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #fff;
 }
 
@@ -314,6 +314,41 @@ h1 {
   padding-left: 0.5rem;
 }
 
+.vegetableText p {
+  font-family: "Barlow", sans-serif;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.galleryFlex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.price {
+  color: #207200;
+  font-weight: 900;
+}
+
+.formerPrice {
+  text-decoration: line-through;
+}
+
 .productArticle {
   width: 22%;
+  margin-top: 2.5rem;
+}
+
+.productButton {
+  background-color: #207200;
+  color: #fff;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 15px;
+  position: relative;
+  top: 20px;
+  left: 20px;
 }/*# sourceMappingURL=style.css.map */

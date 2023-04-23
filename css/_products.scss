@@ -5,7 +5,7 @@
 // font-family: 'Lora', serif;
 
 .product {
-    height: 100vh;
+    min-height: 100vh;
     background-color: $white;
 }
 
@@ -48,6 +48,42 @@
     padding-left: .5rem;
 }
 
+.vegetableText p {
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+
+}
+
+.galleryFlex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.price {
+    color: $green;
+    font-weight: 900;
+}
+
+.formerPrice {
+    text-decoration: line-through;
+}
+
 .productArticle {
     width: 22%;
+    margin-top: 2.5rem;
+}
+
+.productButton {
+    background-color: $green;
+    color: $white;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
