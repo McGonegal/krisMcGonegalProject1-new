@@ -367,6 +367,7 @@ h1 {
 .loadButton {
   text-transform: uppercase;
   font-family: "Lora", serif;
+  font-size: 0.8rem;
   background-color: #207200;
   color: #fff;
   font-weight: 900;
@@ -397,7 +398,7 @@ h1 {
   }
 }
 .gallery {
-  min-height: 200vh;
+  min-height: 150vh;
   background-image: url(../assets/grass.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -442,6 +443,32 @@ h1 {
   justify-content: space-evenly;
 }
 
-.gallery1, .gallery2 {
-  width: 33%;
+.gallery1, .gallery2, .gallery3, .gallery6, .gallery7, .gallery8 {
+  width: 31%;
+}
+
+.gallery4, .gallery5 {
+  width: 48%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.loadButtonGalleryFlex {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.loadButtonGallery {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  background-color: #207200;
+  color: #fff;
+  font-weight: 900;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
