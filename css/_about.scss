@@ -1,0 +1,33 @@
+@use './variables' as *;
+
+// font-family: 'Barlow', sans-serif;
+
+// font-family: 'Lora', serif;
+
+.about {
+    height: 80vh;
+    background-color: $white;
+}
+
+.aboutFlex {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.aboutService {
+    background-color: $green;
+    width: 50%;
+    height: 30%;
+}
+
+.aboutText {
+    width: 50%;
+}
+
+.aboutService p {
+    color: $white;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    padding-top: 2rem;
+}

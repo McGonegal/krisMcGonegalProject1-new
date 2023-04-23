@@ -166,4 +166,31 @@ h1 {
   .navList {
     flex-wrap: wrap;
   }
+}
+.about {
+  height: 80vh;
+  background-color: #fff;
+}
+
+.aboutFlex {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.aboutService {
+  background-color: #207200;
+  width: 50%;
+  height: 30%;
+}
+
+.aboutText {
+  width: 50%;
+}
+
+.aboutService p {
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  padding-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
