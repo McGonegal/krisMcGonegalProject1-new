@@ -397,8 +397,51 @@ h1 {
   }
 }
 .gallery {
-  min-height: 150vh;
+  min-height: 200vh;
   background-image: url(../assets/grass.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.gallery h2 {
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.galleryButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.galleryButtons li button {
+  margin-bottom: 2rem;
+  background-color: #207200;
+  color: #fff;
+  font-family: "Lora", serif;
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+.galleryFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gallery1, .gallery2 {
+  width: 33%;
 }/*# sourceMappingURL=style.css.map */
