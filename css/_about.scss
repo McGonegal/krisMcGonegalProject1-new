@@ -87,7 +87,7 @@
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 780px){
     .aboutService {
         display: none;
     }
@@ -99,7 +99,10 @@
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 560px) {
+    .about {
+        height: 90vh;
+    }
     .aboutText h3 {
         font-size: 1.2rem;
     }

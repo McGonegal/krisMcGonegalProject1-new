@@ -245,7 +245,7 @@ h1 {
     font-size: 1.3rem;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 780px) {
   .aboutService {
     display: none;
   }
@@ -255,7 +255,10 @@ h1 {
     padding-top: 2rem;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 560px) {
+  .about {
+    height: 90vh;
+  }
   .aboutText h3 {
     font-size: 1.2rem;
   }
@@ -372,4 +375,24 @@ h1 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   border-radius: 20px;
+}
+
+@media (max-width: 1150px) {
+  .productArticle {
+    width: 30%;
+  }
+}
+@media (max-width: 700px) {
+  .productArticle {
+    width: 45%;
+  }
+}
+@media (max-width: 450px) {
+  .galleryFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .productArticle {
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */
