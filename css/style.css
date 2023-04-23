@@ -269,4 +269,51 @@ h1 {
   .about {
     height: 120vh;
   }
+}
+.product {
+  height: 100vh;
+  background-color: #fff;
+}
+
+.product h2 {
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+.productText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productText p {
+  text-align: center;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.vegetableImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.vegetableText {
+  border-left: 1px solid rgb(235, 229, 229);
+  border-bottom: 1px solid rgb(235, 229, 229);
+  border-right: 1px solid rgb(235, 229, 229);
+}
+
+.vegetableText h3 {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.productArticle {
+  width: 22%;
 }/*# sourceMappingURL=style.css.map */
