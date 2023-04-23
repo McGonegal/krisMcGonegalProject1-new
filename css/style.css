@@ -395,4 +395,10 @@ h1 {
   .productArticle {
     width: 80%;
   }
+}
+.gallery {
+  min-height: 150vh;
+  background-image: url(../assets/grass.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }/*# sourceMappingURL=style.css.map */

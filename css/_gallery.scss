@@ -1,0 +1,12 @@
+@use './variables' as *;
+
+// font-family: 'Barlow', sans-serif;
+
+// font-family: 'Lora', serif;
+
+.gallery {
+    min-height: 150vh;
+    background-image: url(../assets/grass.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
