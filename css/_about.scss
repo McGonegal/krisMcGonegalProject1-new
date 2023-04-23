@@ -12,22 +12,54 @@
 .aboutFlex {
     display: flex;
     height: 100%;
-    align-items: center;
+    padding-top: 8rem;
 }
 
 .aboutService {
     background-color: $green;
+    opacity: .7;
     width: 50%;
-    height: 30%;
+    height: 40%;
+    padding-left: 1rem;
+    margin-left: 4rem;
+    border-radius: 20px;
 }
 
 .aboutText {
     width: 50%;
 }
 
+.aboutText h2 {
+    font-family: 'Lora', serif;
+    font-size: .9rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+.aboutText h3 {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+
+.aboutText button {
+    background-color: $green;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    color: $white;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
 .aboutService p {
     color: $white;
     font-family: 'Lora', serif;
-    font-size: 2rem;
-    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-top: 3.5rem;
 }
