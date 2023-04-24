@@ -1,0 +1,30 @@
+@use './variables' as *;
+
+// font-family: 'Barlow', sans-serif;
+
+// font-family: 'Lora', serif;
+
+.blog {
+    min-height: 100vh;
+    background-color: $green;
+}
+
+.blog h2 {
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.blog p {
+    color: $white;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 2.5rem;
+    line-height: 2rem;
+}
