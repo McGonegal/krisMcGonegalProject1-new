@@ -601,4 +601,10 @@ h1 {
   .blogArticle {
     width: 95%;
   }
+}
+.info {
+  min-height: 70vh;
+  background-image: url(../assets/cow.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }/*# sourceMappingURL=style.css.map */

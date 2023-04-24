@@ -1,0 +1,12 @@
+@use './variables' as *;
+
+// font-family: 'Barlow', sans-serif;
+
+// font-family: 'Lora', serif;
+
+.info {
+    min-height: 70vh;
+    background-image: url(../assets/cow.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
