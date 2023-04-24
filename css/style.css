@@ -610,18 +610,36 @@ h1 {
 }
 
 .infoFlex {
-  height: 70vh;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
 }
 
 .info article {
   width: 23%;
+  margin-top: 6rem;
 }
 
 .info p {
   font-family: "Barlow", sans-serif;
   font-size: 0.85rem;
   line-height: 1.5rem;
+  padding-top: 1rem;
+}
+
+.iconList {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.info article h3 {
+  font-family: "Lora", serif;
+  padding-bottom: 0.5rem;
+}
+
+.infoArticleList li {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  font-size: 0.8rem;
+  padding-top: 1rem;
 }/*# sourceMappingURL=style.css.map */
