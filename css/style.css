@@ -512,12 +512,45 @@ h1 {
   padding-top: 5rem;
 }
 
-.blog p {
+.blogHeadingText {
   color: #fff;
   font-family: "Lora", serif;
   text-align: center;
-  font-size: 1.1rem;
   font-weight: 500;
   padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   line-height: 2rem;
+}
+
+.blogFlex {
+  display: flex;
+}
+
+.blogArticle {
+  width: 32%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.blog img {
+  width: 100%;
+  height: 100%;
+}
+
+.blogImageContainer {
+  padding: 0.6rem;
+}
+
+.blog h3 {
+  line-height: 2rem;
+  font-family: "Lora", serif;
+  padding-bottom: 1.2rem;
+}
+
+.blogArticleText {
+  color: #1a2428;
+  font-family: "Lora", serif;
+  font-size: 0.9rem;
+  padding-bottom: 1.5rem;
+  line-height: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
