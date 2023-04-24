@@ -79,3 +79,30 @@
     padding-right:.75rem;
     border-radius: 20px;
 }
+
+@media (max-width: 1050px) {
+    .gallery1, .gallery2, .gallery3, .gallery4, .gallery5, .gallery6, .gallery7, .gallery8 {
+        width: 44%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .galleryButtons {
+        flex-wrap: wrap;
+    }
+
+    .gallery1, .gallery2, .gallery3, .gallery4, .gallery5, .gallery6, .gallery7, .gallery8 {
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .gallery1, .gallery2, .gallery3, .gallery4, .gallery5, .gallery6, .gallery7, .gallery8 {
+        width: 90%;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+}
