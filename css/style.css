@@ -642,4 +642,30 @@ h1 {
   font-weight: 200;
   font-size: 0.8rem;
   padding-top: 1rem;
+}
+
+.productImageContainer {
+  height: 25%;
+  width: 25%;
+  padding-top: 0.5rem;
+}
+
+.recentProduct {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.recentProduct img {
+  width: 100%;
+  height: 100%;
+}
+
+.infoSpan {
+  color: #207200;
+  font-weight: 800;
+}
+
+.recentProduct p {
+  padding-top: 0;
+  padding-left: 1rem;
 }/*# sourceMappingURL=style.css.map */
