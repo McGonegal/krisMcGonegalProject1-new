@@ -473,6 +473,7 @@ h1 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   border-radius: 20px;
+  margin-bottom: 4rem;
 }
 
 @media (max-width: 1050px) {
@@ -568,4 +569,36 @@ h1 {
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   border-radius: 30px;
+}
+
+@media (max-width: 1250px) {
+  .blogFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blogArticle {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  .blogImageContainer {
+    padding: 1.6rem;
+  }
+  .blog h3 {
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 850px) {
+  .blogArticle {
+    width: 70%;
+  }
+}
+@media (max-width: 530px) {
+  .blogArticle {
+    width: 85%;
+  }
+}
+@media (max-width: 440px) {
+  .blogArticle {
+    width: 95%;
+  }
 }/*# sourceMappingURL=style.css.map */

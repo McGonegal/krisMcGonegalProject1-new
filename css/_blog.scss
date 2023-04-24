@@ -76,3 +76,42 @@
     padding-right: 1.8rem;
     border-radius: 30px;
 }
+
+@media (max-width: 1250px) {
+
+    .blogFlex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogArticle {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    .blogImageContainer {
+        padding: 1.6rem
+    }
+
+    .blog h3 {
+        margin-top: .5rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .blogArticle {
+        width: 70%;
+    }
+}
+
+@media (max-width: 530px) {
+    .blogArticle {
+        width: 85%;
+    }
+}
+
+@media (max-width: 440px) {
+    .blogArticle {
+        width: 95%;
+    }
+}
