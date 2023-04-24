@@ -10,3 +10,21 @@
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+
+.infoFlex {
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info article  {
+    width: 23%;
+}
+
+.info p {
+    font-family: 'Barlow', sans-serif;
+    font-size: .85rem;
+    line-height: 1.5rem;
+}
