@@ -14,7 +14,7 @@
 
 .infoFlex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .info article  {
@@ -33,6 +33,10 @@
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
+}
+
+.article2 {
+    padding-left: 1.5rem;
 }
 
 .info article h3 {
@@ -71,4 +75,21 @@
 .recentProduct p {
     padding-top: 0;
     padding-left: 1rem;
+}
+
+h4 {
+    font-size: .85rem;
+    font-family: 'Barlow', sans-serif;
+    padding-top: 1rem;
+}
+
+form {
+    padding-top: 1rem;
+}
+
+textarea {
+    font-family: 'Lora', serif;
+    padding: 1rem;
+    color: gray;
+    font-size: .8rem;
 }
