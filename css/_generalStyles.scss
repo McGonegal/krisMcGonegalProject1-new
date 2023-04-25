@@ -1,3 +1,9 @@
+@use './variables' as *;
+
+// font-family: 'Barlow', sans-serif;
+
+// font-family: 'Lora', serif;
+
 * {
     margin: 0;
     padding: 0;
@@ -39,4 +45,13 @@ button {
     padding: 0;
 }
 
+footer {
+    background-color: $green;
+}
 
+footer p {
+    color: $white;
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}

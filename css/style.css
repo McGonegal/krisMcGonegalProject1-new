@@ -39,6 +39,17 @@ button {
   padding: 0;
 }
 
+footer {
+  background-color: #207200;
+}
+
+footer p {
+  color: #fff;
+  font-family: "Lora", serif;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+
 .navigation {
   height: 10vh;
   background-color: #fff;
