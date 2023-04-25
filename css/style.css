@@ -832,6 +832,27 @@ textarea {
   align-items: center;
 }
 
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact textarea {
   border: 1px solid lightgray;
+}
+
+.contactForm button {
+  color: white;
+  background-color: #207200;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-family: "Lora", serif;
+  width: 55%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
