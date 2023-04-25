@@ -763,4 +763,9 @@ textarea {
   font-family: "Lora", serif;
   font-weight: bold;
   color: #fff;
+}
+
+.contact {
+  min-height: 100vh;
+  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */
