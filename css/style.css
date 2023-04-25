@@ -768,4 +768,10 @@ textarea {
 .contact {
   min-height: 100vh;
   background-color: #fff;
+}
+
+.contactAddress .addressBox {
+  width: 50%;
+  height: 25vh;
+  border-left: #207200 2px solid;
 }/*# sourceMappingURL=style.css.map */
