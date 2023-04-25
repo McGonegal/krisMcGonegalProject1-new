@@ -704,7 +704,7 @@ textarea {
 
 @media (max-width: 1150px) {
   .info {
-    min-height: 120vh;
+    min-height: 180vh;
   }
   .infoFlex {
     flex-direction: column;
@@ -735,9 +735,6 @@ textarea {
   }
 }
 @media (max-width: 750px) {
-  .info {
-    min-height: 180vh;
-  }
   .productImageContainer {
     width: 35%;
     height: 35%;
@@ -750,4 +747,20 @@ textarea {
   .info article {
     width: 75%;
   }
+}
+.contactHiero {
+  height: 50vh;
+  background-image: url(../assets/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactHiero h1 {
+  font-size: 2.2rem;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

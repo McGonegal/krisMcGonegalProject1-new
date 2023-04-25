@@ -97,7 +97,7 @@ textarea {
 @media (max-width: 1150px) {
 
     .info {
-        min-height: 120vh;
+        min-height: 180vh;
     }
 
     .infoFlex {
@@ -134,10 +134,8 @@ textarea {
 
 }
 
+
 @media (max-width: 750px){
-    .info {
-        min-height: 180vh;
-    }
 
     .productImageContainer {
         width: 35%;
