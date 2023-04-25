@@ -128,6 +128,8 @@ h1 {
 .hieroP {
   line-height: 1.4rem;
   padding-bottom: 1rem;
+  padding-right: 1rem;
+  padding-left: 0rem;
 }
 
 .hieroButton {
@@ -227,6 +229,10 @@ h1 {
   padding: 0.5rem 1rem;
   border-radius: 20px;
   margin-top: 1rem;
+}
+
+.aboutText p {
+  padding-left: 0rem;
 }
 
 .aboutService p {
@@ -564,6 +570,7 @@ h1 {
   color: #1a2428;
   font-family: "Lora", serif;
   font-size: 0.9rem;
+  padding-left: 0rem;
   padding-bottom: 1.5rem;
   line-height: 1.5rem;
 }
@@ -691,6 +698,15 @@ h4 {
   padding-top: 1rem;
 }
 
+.article1 p {
+  padding-left: 0rem;
+}
+
+.article4 p {
+  padding-top: 1rem;
+  padding-left: 0rem;
+}
+
 form {
   padding-top: 1rem;
 }
@@ -772,14 +788,21 @@ textarea {
 
 .contactAddress {
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
+.contactFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .addressBox {
-  width: 50%;
-  height: 25vh;
+  width: 90%;
+  height: 20vh;
   border-left: #207200 10px solid;
   display: flex;
   flex-direction: column;
@@ -793,4 +816,22 @@ textarea {
 
 .addressBox h3, p {
   padding-left: 2rem;
+}
+
+.contactForm {
+  width: 90%;
+  height: 80vh;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.formFlex {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact textarea {
+  border: 1px solid lightgray;
 }/*# sourceMappingURL=style.css.map */
