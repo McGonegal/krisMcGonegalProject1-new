@@ -770,8 +770,27 @@ textarea {
   background-color: #fff;
 }
 
-.contactAddress .addressBox {
+.contactAddress {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.addressBox {
   width: 50%;
   height: 25vh;
-  border-left: #207200 2px solid;
+  border-left: #207200 10px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 10px 0 10px lightgrey;
+}
+
+.addressBox h3 {
+  padding-bottom: 1rem;
+}
+
+.addressBox h3, p {
+  padding-left: 2rem;
 }/*# sourceMappingURL=style.css.map */
