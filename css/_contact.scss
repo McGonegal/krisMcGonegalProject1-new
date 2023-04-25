@@ -101,3 +101,28 @@
     padding-bottom: 1rem;
     border-radius: 20px;
 }
+
+@media (max-width: 1250px) {
+    .contactFlex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .subject {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 75%;
+    }
+
+    .message textarea {
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 450px)  {
+    .message textarea {
+        max-width: 50%;
+    }
+}
