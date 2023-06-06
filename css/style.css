@@ -50,6 +50,18 @@ footer p {
   font-family: "Barlow", sans-serif;
 }
 
+.loadButton {
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  text-align: center;
+}
+
 .navigation {
   height: 10vh;
   background-color: #fff;
@@ -379,7 +391,9 @@ h1 {
 .loadButtonFlex {
   margin-top: 3rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .loadButton {
